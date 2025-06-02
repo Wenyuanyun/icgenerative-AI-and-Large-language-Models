@@ -1,12 +1,17 @@
+title: "Generative AI & LLM Notes"
 ---
-title: "My First GitHub Pages Site"
+
+# Lecture 1: Introduction to Language Models
+
+Welcome to Lecture 1! In this lecture we’ll cover:
+
+1. [What Is a Language Model?](#what-is-a-language-model)
+2. [N-gram Models](#ngram-models)
+3. [Neural Language Models](#neural-language-models)
+4. [Key Takeaways](#key-takeaways)
+
 ---
 
-# Hello, World! 👋
+## What Is a Language Model?
 
-This is my homepage, written in Markdown.  
-Every time you edit and commit this file, GitHub Pages will update automatically.
-
-- Replace this bullet point with your lecture notes.
-- Use `##`, `###` for subheadings.
-- You can add images, links, code blocks, etc.
+A language model assigns a probability to a sequence of words. For instance, given the words “The cat sat on the,” it predicts which word is most likely next (e.g., “mat”).
